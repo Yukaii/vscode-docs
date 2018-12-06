@@ -11,6 +11,13 @@ MetaDescription: To support lazy activation of Visual Studio Code extensions (pl
 
 Extensions are activated lazily in VS Code.  As a result, you need to provide VS Code with context as to when your extension should be activated.  We support the following activation events:
 
+> Is there a typo?
+
+```javascript
+console.log("Hello Js Paris!")
+```
+
+
 * [`onLanguage:${language}`](/docs/extensionAPI/activation-events.md#activationeventsonlanguage)
 * [`onCommand:${command}`](/docs/extensionAPI/activation-events.md#activationeventsoncommand)
 * [`onDebug`](/docs/extensionAPI/activation-events.md#activationeventsondebug)
